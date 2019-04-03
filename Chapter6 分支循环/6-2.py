@@ -37,6 +37,3 @@ not a or b + 2 == c
 4. False or False ====> False
 
 '''
-
-
-
