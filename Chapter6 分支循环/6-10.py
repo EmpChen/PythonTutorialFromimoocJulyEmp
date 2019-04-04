@@ -51,6 +51,26 @@ else:
 一般一层嵌套就可以了 再多的就不要用了 
 
 
+a=input()
+a=int(a)
+if a==1:
+    print("Eat Apple")
+elif a==2:
+    print("Eat Orange")
+elif a==3:
+    print("Eat Banana")
+else:
+    print("Go Shopping")
+
+
+elif 就是 else if 不可以单独使用 要与 if 一起使用
+elif 简化代码级别 减少代码行数 
+
+Python中没有Switch 语句但是其他的语言都有 会比 elif 更好 但是Python里面没有也没办法啊
+
+所以官方推荐使用 if....elif....elif....else  来代替 switch语句
+或者 
+使用dict去代替switch 这种办法更好。
 
 
 '''
@@ -92,6 +112,7 @@ else:
             print('go shopping')
 
 print('=============================================')
+
 if a==1:
     print("Eat Apple")
 elif a==2:
